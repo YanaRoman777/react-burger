@@ -18,6 +18,13 @@
   width: 272px;
 }
 
+.name {
+  margin: 0;
+  height: 48px;
+  text-align: center;
+  color: #F2F2F3;
+}
+
 .price {
   display: flex;
   align-items: center;
@@ -26,11 +33,4 @@
 
 .price svg {
   margin-left: 9px;
-}
-
-.name {
-  margin: 0;
-  height: 48px;
-  text-align: center;
-  color: #F2F2F3;
 }

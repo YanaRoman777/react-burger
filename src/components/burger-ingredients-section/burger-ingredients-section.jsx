@@ -2,7 +2,6 @@ import styles from './burger-ingredients-section.module.css';
 
 import PropTypes from 'prop-types';
 import ingredientsTypes from '../../utils/types';
-
 import { CurrencyIcon } from '@ya.praktikum/react-developer-burger-ui-components';
 
 function BurgerIngredientsSection(props) {

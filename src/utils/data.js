@@ -188,7 +188,7 @@ const data = [
    "proteins":84,
    "fat":48,
    "carbohydrates":42,
-   "calories":337,
+   "calories":330,
    "price":100,
    "image":"https://code.s3.yandex.net/react/code/cheese.png",
    "image_mobile":"https://code.s3.yandex.net/react/code/cheese-mobile.png",

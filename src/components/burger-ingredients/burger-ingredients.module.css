@@ -5,15 +5,6 @@
   width: 100%;
 }
 
-.title {
-  text-align: left;
-  color: #F2F2F3;
-} 
-
-.tabs {
-display: flex;
-}
-
 .ingredients {
   flex: 1;
   overflow-y: auto;
@@ -30,4 +21,13 @@ display: flex;
 
 .ingredients::-webkit-scrollbar-thumb {
 	background: #8585AD;
+}
+
+.title {
+  text-align: left;
+  color: #F2F2F3;
+} 
+
+.tabs {
+display: flex;
 }
