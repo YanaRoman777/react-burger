@@ -26,8 +26,10 @@ function BurgerIngredientsSection(props) {
   );
 }
 
-BurgerIngredientsSection.propTypes = { 
-  data: PropTypes.arrayOf(ingredientsTypes).isRequired
+BurgerIngredientsSection.propTypes = {
+  title: PropTypes.string,
+  data: PropTypes.arrayOf(ingredientsTypes).isRequired,
+  openModal: PropTypes.func.isRequired
 };
 
 export default BurgerIngredientsSection;
