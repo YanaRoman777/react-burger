@@ -17,6 +17,13 @@
   margin: 0 auto;
 }
 
+.logo {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
 .button {
   display: flex;
   align-items: center;
@@ -38,11 +45,4 @@
 
 .button_text_active {
   color: #F2F2F3;
-}
-
-.logo {
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
 }

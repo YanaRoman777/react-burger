@@ -1,5 +1,4 @@
 import styles from './order-details.module.css';
-
 import doneImg from '../../images/done.svg';
 
 function OrderDetails() {

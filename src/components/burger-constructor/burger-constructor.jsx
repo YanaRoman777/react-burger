@@ -1,6 +1,7 @@
 import PropTypes from 'prop-types';
 import styles from './burger-constructor.module.css';
 import ingredientsTypes from '../../utils/types';
+
 import { 
   ConstructorElement, 
   Button, 

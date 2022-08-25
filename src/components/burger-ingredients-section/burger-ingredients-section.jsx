@@ -2,7 +2,6 @@ import styles from './burger-ingredients-section.module.css';
 
 import PropTypes from 'prop-types';
 import ingredientsTypes from '../../utils/types';
-
 import { CurrencyIcon } from '@ya.praktikum/react-developer-burger-ui-components';
 
 function BurgerIngredientsSection(props) {
@@ -27,8 +26,10 @@ function BurgerIngredientsSection(props) {
   );
 }
 
-BurgerIngredientsSection.propTypes = { 
-  data: PropTypes.arrayOf(ingredientsTypes).isRequired
+BurgerIngredientsSection.propTypes = {
+  title: PropTypes.string,
+  data: PropTypes.arrayOf(ingredientsTypes).isRequired,
+  openModal: PropTypes.func.isRequired
 };
 
 export default BurgerIngredientsSection;
