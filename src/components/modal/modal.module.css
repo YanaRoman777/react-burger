@@ -1,5 +1,5 @@
 .root {
-  position: fixed;
+  position: absolute;
   top: 50%;
   left: 50%;
   background: #1C1C21;
